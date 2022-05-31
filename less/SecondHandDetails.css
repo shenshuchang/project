@@ -109,11 +109,18 @@ article h3 {
 }
 .article1 .article1_price {
   display: flex;
+  justify-content: space-between;
 }
 .article1 .article1_price span {
   color: red;
   font-weight: 600;
   margin-right: 0.3rem;
+}
+.article1 .article1_price i {
+  flex: 2;
+  width: 2rem;
+  height: 2rem;
+  background: url(../image/SecondHandList/phone.png) no-repeat center right;
 }
 .article1 .article1_span {
   display: flex;
