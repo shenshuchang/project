@@ -27,16 +27,19 @@ form .form_span .form_span_right {
   border-bottom: 0.3rem solid #e4e4e4;
 }
 form .form_input {
-  display: flex;
   flex-direction: column;
   position: relative;
 }
 form .form_input input {
+  width: 100%;
   padding-left: 1rem;
   height: 3.5rem;
   border: none;
   border-bottom: 0.05rem solid #e4e4e4;
   outline: none;
+}
+form .form_input .authCode {
+  display: none;
 }
 form .form_input .form_input_a {
   position: absolute;

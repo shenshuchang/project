@@ -5,3 +5,6 @@
 form .form_input .form_input_a1 {
   display: block;
 }
+form .form_input .authCode {
+  display: block;
+}

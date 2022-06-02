@@ -89,3 +89,23 @@ nav .index_a {
   text-align: center;
   color: #ff8a00;
 }
+.popup {
+  position: fixed;
+  text-align: center;
+  background-color: #afafaf;
+  margin-left: 50%;
+  margin-top: 30%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  z-index: 100;
+  display: none;
+}
+.popup .popuptop {
+  border-bottom: 0.05rem solid #ff0000;
+  padding: 1rem;
+}
+.popup a {
+  display: block;
+  line-height: 3rem;
+  height: 3rem;
+}

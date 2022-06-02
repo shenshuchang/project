@@ -82,25 +82,6 @@ cipher.onblur = function () {
         return true;
     }
 }
-var confirmPassword = document.getElementsByClassName('confirmPassword')[0];
-console.log(confirmPassword);
-confirmPassword.onfocus = function () {
-    this.placeholder = '请确认密码'
-}
-
-
-confirmPassword.onblur = function () {
-    if (this.value == '') {
-        this.placeholder = '不能为空'
-        return false;
-    } else if (input3.value !== input4.value) {
-        this.value = '';
-        this.placeholder = '输入密码不相同';
-        return false;
-    } else {
-        return true;
-    }
-}
 var submit = document.getElementsByClassName('submit')[0];
 console.log(submit);
 submit.ontouchstart = function () {
@@ -108,6 +89,9 @@ submit.ontouchstart = function () {
         window.location.href = "http://127.0.0.1:5501/myLogin.html";
     }
 }
+
+
+
 var popup = document.getElementsByClassName('popup')[0]
 var popuptop_a = document.getElementsByClassName('popuptop_a')[0];
 console.log(popuptop_a);
