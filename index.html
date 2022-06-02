@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src=""></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <a href="#"><img src="./image/index/logo.jpg" alt=""></a>
+        <div class="header1">
+            <img src="./image/index/my.jpg" alt="">
+            <img src="./image/index/xiazai.jpg" alt="">
+        </div>
+    </div>
+    <!-- input框部分 -->
+    <section class="banner">
+        <form action="#" class="banner1">
+            <span class="icon"></span>
+            <input class="search" type="search" placeholder="输入小区或商圈名开始找房咯！" />
+        </form>
+    </section>
+    <!-- 二手房 新房 第三部分 -->
+    <section class="navList">
+        <nav>
+            <ul class="navList1">
+                <li><a href="#">二手房</a></li>
+                <li><a href="#">新房</a></li>
+                <li><a href="#">租房</a></li>
+                <li><a href="#">卖房</a></li>
+            </ul>
+        </nav>
+    </section>
+    <!-- 第三张图片 -->
+    <section class="banner2">
+        <!-- <img src="./image/index/banner2.png" alt="" /> -->
+    </section>
+    <!-- 第四部分介绍部分 -->
+    <section class="banner3">
+        <p>热门房源</p>
+        <span>Hot house</span>
+    </section>
+
+    <section class="hotHouse">
+        <div class="img"><img src="./image/index/img1.jpg" alt="" /></div>
+        <ul class="houseList">
+            <li>
+                <div class="text">
+                    <h3>文化部中间层 一层带阁楼</h3>
+                    <p>2室1厅96㎡南北 <strong>1105万</strong></p>
+                    <p>红庙北里 <span>14268元/平</span></p>
+                    <p>
+                        <a href="#">学区房</a>
+                        <a href="#">独家</a>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="hotHouse">
+        <div class="img"><img src="./image/index/img2.png" alt="" /></div>
+        <ul class="houseList">
+            <li>
+                <div class="text">
+                    <h3>光大水墨 精装复式 稀缺</h3>
+                    <p>2室1厅96㎡南北 <strong>280万</strong></p>
+                    <p>光大水墨 <span>14268元/平</span></p>
+                    <p>
+                        <a href="#">学区房</a>
+                        <a href="#">独家</a>
+                        <a href="#">满五唯一</a>
+
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+
+    <section class="hotHouse">
+        <div class="img"><img src="./image/index/img3.png" alt="" /></div>
+        <ul class="houseList">
+            <li>
+                <div class="text">
+                    <h3>南北通透两居 精装修 无</h3>
+                    <p>2室1厅96㎡南北 <strong>320万</strong></p>
+                    <p>北京新天地 <span>14268元/平</span></p>
+                    <p>
+                        <a href="#">地铁房</a>
+                        <a href="#">独家</a>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="hotAttention">
+        <p>热门关注</p>
+        <p>友情链接</p>
+    </section>
+
+    <div class="content">
+        <ul>
+            <li><a href="#">北京二手房</a></li>
+            <li><a href="#">北京找房无忧</a></li>
+            <li><a href="#">青年家园</a></li>
+            <li><a href="#">北京二手房价</a></li>
+            <li><a href="#">海淀日租房</a></li>
+            <li><a href="#">免税房源</a></li>
+            <li><a href="#">朝阳新房</a></li>
+            <li><a href="#">满五年唯一免税</a></li>
+        </ul>
+    </div>
+
+    <div class="bottom">
+        <div>北京找房无忧>首选</div>
+        <div>
+            <p><span>iPhone</span><span>客户端</span></p>
+            <p><span>Android</span><span>客户端</span></p>
+        </div>
+        <div><span>北京找房无忧房产经纪公司</span><span>网络经营许可证ICP备20160812号</span></div>
+    </div>
+
+    <div class="float_">
+        <img src="./image/index/close.png" alt="">
+        <ul>
+            <li><img src="./image/index/download.png" alt=""></li>
+            <li><span>找房无忧</span><br>
+                <span>市场行情，一手掌握</span>
+            </li>
+            <li>免费下载</li>
+        </ul>
+    </div>
+
+
+
+</body>
+
+</html>
+
+<script>
+    function setRem() {
+        var ui_w = 375;
+        // 获取屏幕的宽度
+        var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+
+
+        // 通过js动态改变html根节点字体大小
+        var html_ = document.getElementsByTagName('html')[0];
+        html_.style.fontSize = (clientWidth / ui_w) * 10 + 'px';
+    }
+    // window.onresize 浏览器被重置大小执行事件
+    window.onresize = setRem;
+</script>

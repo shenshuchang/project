@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/myhouse.css">
+    <script src=""></script>
+</head>
+
+<body>
+
+    <!-- 头部 -->
+    <div class="header">
+        <a href="#"><img src="./image/index/logo.jpg" alt=""></a>
+        <div class="header1">
+            <img src="./image/index/my.jpg" alt="">
+            <img src="./image/index/xiazai.jpg" alt="">
+        </div>
+    </div>
+
+    <section class="rentalAddr">
+        <p><span>首页</span> > <span>我的</span> > <span>我关注的小区</span></p>
+    </section>
+
+    <section class="hotHouse">
+        <div class="img"><img src="./image/my/img1.png" alt="" /></div>
+        <ul class="houseList">
+            <li>
+                <div class="text">
+                    <h3>辉煌国际</h3>
+                    <p>昌平区-回龙观</p>
+                    <p>2007年建成 <span>37050元/平</span></p>
+                    <p>
+                        <a href="#">板塔结构</a>
+                        <a href="#"></a>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="hotHouse">
+        <div class="img"><img src="./image/my/img1.png" alt="" /></div>
+        <ul class="houseList">
+            <li>
+                <div class="text">
+                    <h3>万寿园</h3>
+                    <p>昌平区-回龙观</p>
+                    <p>2007年建成 <span>56447元/平</span></p>
+                    <p>
+                        <a href="#">板塔结构</a>
+                        <a href="#"></a>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="hotHouse">
+        <div class="img"><img src="./image/my/img1.png" alt="" /></div>
+        <ul class="houseList">
+            <li>
+                <div class="text">
+                    <h3>红莲南里5号</h3>
+                    <p>昌平区-回龙观</p>
+                    <p>2007年建成 <span>89776元/平</span></p>
+                    <p>
+                        <a href="#">板塔结构</a>
+                        <a href="#"></a>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="hotHouse">
+        <div class="img"><img src="./image/my/img1.png" alt="" /></div>
+        <ul class="houseList">
+            <li>
+                <div class="text">
+                    <h3>万寿西街16号</h3>
+                    <p>昌平区-回龙观</p>
+                    <p>2007年建成 <span>90778元/平</span></p>
+                    <p>
+                        <a href="#">板塔结构</a>
+                        <a href="#"></a>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
+
+<script>
+    function setRem() {
+        var ui_w = 375;
+        // 获取屏幕的宽度
+        var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+
+
+        // 通过js动态改变html根节点字体大小
+        var html_ = document.getElementsByTagName('html')[0];
+        html_.style.fontSize = (clientWidth / ui_w) * 10 + 'px';
+    }
+    // window.onresize 浏览器被重置大小执行事件
+    window.onresize = setRem;
+</script>

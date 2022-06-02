@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src=""></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <a href="#"><img src="./image/index/logo.jpg" alt=""></a>
+        <div class="header1">
+            <img src="./image/index/my.jpg" alt="">
+            <img src="./image/index/xiazai.jpg" alt="">
+        </div>
+    </div>
+
+    <section class="rentalAddr">
+        <p><span>首页</span> > <span>北京租房</span> > <span>房源信息</span></p>
+    </section>
+
+    <div class="banner">
+        <a href="#"><img class="img" src="./image/rentalList/banner.png" alt="" /></a>
+        <div class="share"><span>分享</span></div>
+    </div>
+
+    <div class="mianText">
+        <h2>天鹅湾小区精装两居，满五唯一，业主换房急售</h2>
+        <a href="#">关注</a>
+    </div>
+    <div class="houseMes1">
+        <ul>
+            <li>
+                <p>租金</p>
+                <p>2300元/月</p>
+
+            </li>
+            <li>
+                <p>房型</p>
+                <p>2室1厅</p>
+
+            </li>
+            <li>
+                <p>面积</p>
+                <p>204平米</p>
+
+            </li>
+        </ul>
+    </div>
+    <div class="houseMes2">
+        <ul>
+            <li>楼层：高楼/17层 </li>
+            <li>朝向: 南北</li>
+            <li>装修：精装</li>
+            <li>供暖：集体供暖</li>
+            <li>年代： 2007年</li>
+            <li>楼型：板楼</li>
+        </ul>
+
+    </div>
+
+
+    <section class="rentalpart2public">
+        <div class="broker">
+            <h2>经纪人房评</h2>
+            <p>地理位置：晶都国际处于酒仙桥中心地带，毗邻
+                北京三大商圈，紧邻丽都商圈，隔四环与望京商
+                圈相望，西南紧挨燕莎商圈，地理位置优越。周
+                边配套：颐堤港商业中心，兆维大厦...</p>
+        </div>
+
+        <div class="publicrentalpart3">
+            <h2>看房客户记录</h2>
+            <p>近一个月新增<span>0</span>位看房客户，共<span>50</span>位</p>
+        </div>
+
+        <section class="publicrentalpart4">
+            <h2>位置及周边</h2>
+            <div>
+                <h3>地址: [黄村]时代龙和</h3>
+                <img src="image/rentalList/map.png" alt="" />
+            </div>
+        </section>
+
+        <section class="publicrentalpart5">
+            <h2>小区成交历史</h2>
+            <p>3 室 2 厅,146 平米，<span>5000 元</span></p>
+            <p>签约日期:2015-02-26</p>
+        </section>
+    </section>
+
+    <section class="rentalpart6">
+        <div class="man">
+            <img src="./image/rentalList/man.png" alt="" />
+            <div>
+                <p>张三</p>
+                <p>4001581855转0008</p>
+            </div>
+        </div>
+        <div class="phone">
+            <a href="#"><span>致电</span></a>
+            <a href="#"><span>短信</span></a>
+        </div>
+    </section>
+
+    <div class="bottom">
+        <div>北京找房无忧>首页</div>
+        <div>
+            <p><span>iPhone</span><span>客户端</span></p>
+            <p><span>Android</span><span>客户端</span></p>
+        </div>
+        <div><span>北京找房无忧房产经纪公司</span><span>网络经营许可证ICP备20160812号</span></div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
+
+<script>
+    function setRem() {
+        var ui_w = 375;
+        // 获取屏幕的宽度
+        var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+
+
+        // 通过js动态改变html根节点字体大小
+        var html_ = document.getElementsByTagName('html')[0];
+        html_.style.fontSize = (clientWidth / ui_w) * 10 + 'px';
+    }
+    // window.onresize 浏览器被重置大小执行事件
+    window.onresize = setRem;
+</script>
