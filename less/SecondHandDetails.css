@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f5f5f5;
+}
+ul {
+  background-color: #fff;
+}
+header {
+  width: 100%;
+  height: 5rem;
+  background-color: #ff8a00;
+  display: flex;
+  justify-content: space-between;
+}
+header .header1_a {
+  height: 100%;
+  flex: 3;
+  background: url(../image/index/logo.jpg) no-repeat center center;
+  background-size: 50%;
+}
+header a {
+  height: 100%;
+}
+header .header2_a1 {
+  flex: 1;
+  background: url(../image/index/my.jpg) no-repeat center center;
+  background-size: 30%;
+}
+header .header2_a2 {
+  flex: 1;
+  background: url(../image/index/xiazai.jpg) no-repeat center left;
+  background-size: 30%;
+}
+nav {
+  width: 100%;
+  height: 20rem;
+  background: url(../image/SecondHandList/img.png) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+}
+nav .nav {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  width: 5rem;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border-radius: 1rem;
+}
+nav .nav p {
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #fff;
+}
+article {
+  background-color: #fff;
+  border-bottom: 0.05rem solid #d6d6d6;
+  border-top: 0.05rem solid #d6d6d6;
+  margin-bottom: 1rem;
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+article .span {
+  padding: 0.5rem;
+  background-color: #dee9f0;
+  color: #84a0bb;
+  margin-right: 1rem;
+}
+article .color {
+  color: #ff9326;
+}
+article .a {
+  color: #949393;
+  margin-top: 1rem;
+  text-align: center;
+}
+article .P_text {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.05rem solid #d6d6d6;
+  border-top: 0.05rem solid #d6d6d6;
+  line-height: 2rem;
+}
+article h2 {
+  margin: 1rem 0 1rem 0;
+}
+article .article1_p {
+  color: #949393;
+}
+article h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0 1rem 0;
+}
+.article1 {
+  flex-direction: column;
+}
+.article1 div {
+  flex: 1;
+  display: flex;
+  margin-top: 1rem;
+}
+.article1 .article1_price {
+  display: flex;
+  justify-content: space-between;
+}
+.article1 .article1_price span {
+  color: red;
+  font-weight: 600;
+  margin-right: 0.3rem;
+}
+.article1 .article1_price i {
+  flex: 2;
+  width: 2rem;
+  height: 2rem;
+  background: url(../image/SecondHandList/phone.png) no-repeat center right;
+  background-size: 5%;
+}
+.article1 .article1_span {
+  display: flex;
+}
+.article2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.article2 li {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.01rem solid #a3a3a3;
+  display: flex;
+}
+.article2 li span {
+  flex: 1;
+}
+.article4 .h3 {
+  padding-bottom: 1rem;
+  border-bottom: 0.01rem solid #a3a3a3;
+}
+.article4 .article4_div {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-bottom: 0.05rem solid red;
+}
+.article4 .article4_div img {
+  width: 20%;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.article4 .article4_div p {
+  margin-bottom: 1rem;
+}
+.article4 .article4_div {
+  border: none;
+}
+.article5 ul {
+  border-top: 0.05rem solid #d6d6d6;
+}
+.article5 ul li {
+  border-bottom: 0.05rem solid #d6d6d6;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.article5 ul li span {
+  color: #999;
+}
+.article5 ul .article5_li {
+  border: none;
+  text-align: center;
+  padding-bottom: 0;
+  padding-top: 1rem;
+}
+.article6 h3 {
+  padding-bottom: 1rem;
+  border-bottom: 0.05rem solid #d6d6d6;
+}
+.article6 img {
+  padding: 1rem 0 1rem 0;
+}
+.article7 {
+  padding: 0;
+}
+.article7 .color {
+  font-size: 1.5rem;
+}
+.article7 .article7_div {
+  border-top: 0.05rem solid #d6d6d6;
+}
+.article7 .article7_div .li_a {
+  padding: 1rem;
+  text-align: center;
+}
+.article7 .article7_div .article7_li {
+  padding: 1rem;
+  border-bottom: 0.05rem solid #d6d6d6;
+}
+.article7 .article7_div .article7_li .article7_li_sanjiao {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f2f2f2;
+  position: relative;
+}
+.article7 .article7_div .article7_li .article7_li_sanjiao span {
+  display: block;
+  margin: 20px auto;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-bottom-color: #f2f2f2;
+  position: absolute;
+  top: -3.5rem;
+}
+.article7 .article7_div .article7_li .article7_top {
+  display: flex;
+}
+.article7 .article7_div .article7_li .article7_top .article7_right {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+.article7 .article7_div .article7_li .article7_top .article7_right p {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article7 .article7_div .article7_li img {
+  width: 20%;
+  padding: 1rem 1rem 1rem 0;
+}
+.article7 .article7_div .article7_li h3 {
+  padding: 0;
+  margin: 0;
+  margin-top: 1rem;
+}
+.article7 h3 {
+  padding-left: 1rem;
+}
+footer {
+  background-color: #2f3130;
+  color: #939494;
+  padding: 1rem;
+}
+footer li {
+  background-color: #2f3130;
+}
+footer .footer_li1 {
+  border-bottom: 0.05rem solid #4c4c4c;
+  padding-bottom: 1rem;
+}
+footer .footer_li2 {
+  display: flex;
+}
+footer .footer_li2 .div {
+  flex: 1;
+  display: flex;
+  margin: 1rem;
+}
+footer .footer_li2 .div img {
+  width: 15%;
+  margin-right: 1rem;
+}
+footer .footer_li3 {
+  width: 100%;
+  text-align: center;
+}
+footer a {
+  color: #939494;
+  font-weight: 600;
+}
+.article8 {
+  margin: 0;
+  padding: 1rem;
+  flex-direction: row;
+  background-color: #f5f5f5;
+}
+.article8 div {
+  flex: 1;
+}
+.article8 .article8_div1 {
+  height: 3rem;
+  background-color: #ff8a00;
+  color: #fff;
+  border-radius: 0.3rem;
+  line-height: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+}
+.article8 .article8_div1 span {
+  width: 2rem;
+  background: url(../image/SecondHandList/user.png) no-repeat center right;
+  background-size: 60%;
+  margin-right: 1rem;
+}
+.article8 .article8_div2 {
+  height: 3rem;
+  line-height: 3rem;
+  display: flex;
+  margin-right: 1rem;
+}
+.article8 .article8_div2 span {
+  width: 2rem;
+  background: url(../image/SecondHandList/xin.png) no-repeat center right;
+  background-size: 60%;
+  margin-right: 1rem;
+}
